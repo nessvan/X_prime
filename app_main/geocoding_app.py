@@ -16,7 +16,8 @@ api = Api(app)
 
 app_id = '' # please add your app_id 
 app_code = '' # please add your app_code 
-gmap_ke = '' # please add you google map key here
+gmap_key = '' # please add you google map key here
+
 class NoQuery(Resource):
     @app.route("/geocoding/")
     def geocdoing_noquery():
